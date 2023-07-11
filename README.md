@@ -1,62 +1,27 @@
-# Building a Fullstack Netflix Clone with React, NextJS, TailwindCSS & Prisma
+# Next.js + Tailwind CSS Example
 
-![image](https://user-images.githubusercontent.com/23248726/220005380-ede4fb14-0b8d-4582-a063-3cc4beeccfb7.png)
+This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
-This is a repository for a FullStack Netflix Clone tutorial using React, NextJS, TailwindCSS & Prisma.
+## Deploy your own
 
-[VIDEO TUTORIAL](https://www.youtube.com/watch?v=mqUN4N2q4qY)
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
 
-Features:
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
 
-- Environment, Typescript, NextJS Setup
-- MongoDB & Prisma connect, Database creation
-- Authentication with NextAuth, Google & Github Login
-- Full responsiveness on all pages
-- Cookie based authentication
-- API and Controllers creation
-- Detail-oriented effects and animations using TailwindCSS
-- React SWR data fetching
-- Zustand state management
+## How to use
 
-### Prerequisites
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
-**Node version 14.x**
-
-### Cloning the repository
-
-```shell
-git clone https://github.com/AntonioErdeljac/next-netflix-tutorial.git
+```bash
+npx create-next-app --example with-tailwindcss with-tailwindcss-app
 ```
 
-### Install packages
-
-```shell
-npm i
+```bash
+yarn create next-app --example with-tailwindcss with-tailwindcss-app
 ```
 
-### Setup .env file
-
-
-```js
-DATABASE_URL=
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-GITHUB_ID=
-GITHUB_SECRET=
-NEXTAUTH_JWT_SECRET=
-NEXTAUTH_SECRET=
+```bash
+pnpm create next-app --example with-tailwindcss with-tailwindcss-app
 ```
 
-### Start the app
-
-```shell
-npm run dev
-```
-
-## Available commands
-
-Running commands with npm `npm run [command]`
-
-| command         | description                              |
-| :-------------- | :--------------------------------------- |
-| `dev`           | Starts a development instance of the app |
+Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
